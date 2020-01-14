@@ -6,10 +6,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <style>
         .about-me {
             color: rgb(2, 131, 131);
@@ -22,15 +24,13 @@
         }
 
         body {
-            background: grey;
-
+            background-color: silver;
         }
     </style>
-
 </head>
 
 <body>
-    <!--Navbar-->
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-sm">
         <div class="navbar">
             <span class="navbar-item dylan">Dylan Kepley</span>
@@ -51,23 +51,46 @@
     </nav>
     <!-- Central body/section of page -->
     <div class="wrapper">
-        <div clas="container my-5">
+
+        <div class="container my-5">
+
+            <!-- First row  -->
             <div class="row">
-                <div class="col-md-10 col-sm-6 mx-auto">
-                    <div class="form-group">
-                        <input type="text" id="name" class="form-control" required>
-                        <label for="name" class="ph=area">Name</label>
-                    </div>
-                    <div class="form-group">
-                        <input type="password" id="password" class="form-control" required>
-                        <label for="password" class="ph-area">Password</label>
-                    </div>
-                    <a href="#" class="btn btn-info">submit</a>
+
+                <!-- First column of First Row-->
+                <div class="col-sm-12 col-md-10 mx-auto">
+
+                    <h2 class="about-me">About Me</h2>
+
+                </div>
+            </div>
+            <!-- Second Row -->
+            <div class="row my-row">
+
+                <!-- First Column of Second -->
+                <div class="col my-col">
+                    My name is Dylan Kepley, and Im a middle aged 2nd generation Californian. Lived here my whole life.
+                    Love
+                    this place, its probably one of the best places to live. Ever since I can remember, since watching
+                    spy
+                    movies like James Bond and Mission Impossible Ive wanted to learn how to become a hacker. So,
+                    at 30, after my quarter life crisis, I decided to do something about it and go back to school. Which
+                    is how and why your reading
+                    this riveting bio about myself. Apart from becoming an eventual hacker ive had many different jobs
+                    and career paths in order to earn a living,. Which has led me to where I am today. Please feel free
+                    to explore the rest of my portfolio.
+                </div>
+            </div>
+            <!-- 3rd row -->
+            <div class="row my-row">
+                <!-- 1st column of 3rd -->
+                <div class="col my-col">
+                    Row 3 Col 1
                 </div>
             </div>
         </div>
     </div>
-
+    <!-- Footer -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
